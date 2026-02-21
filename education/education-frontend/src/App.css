@@ -1,0 +1,116 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Section headings */
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Card container */
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Inputs */
+input, select {
+  padding: 0.6rem;
+  margin: 0.4rem 0.5rem 0.4rem 0;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: white;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 0.9rem;
+  margin: 0.3rem 0.3rem 0.3rem 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+button.delete {
+  background-color: #d9534f;
+}
+
+button.delete:hover {
+  background-color: #c9302c;
+}
+
+/* Divider */
+hr {
+  margin: 2rem 0;
+  border: none;
+  height: 1px;
+  background: #333;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #333;
+  background: #111;
+}
+
+/* Different subtle borders for separation */
+.educators-section {
+  border-left: 6px solid #646cff;
+}
+
+.courses-section {
+  border-left: 6px solid #22c55e;
+}
+
+.students-section {
+  border-left: 6px solid #f59e0b;
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+}
